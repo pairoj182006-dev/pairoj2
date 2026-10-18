@@ -1,0 +1,28 @@
+body {
+    background-color: #9e9e9e;
+}
+
+/* รูปโปรไฟล์เป็นวงกลม */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Challenge: เว้นระยะห่างระหว่างรูปกับข้อความ */
+.profile-table td {
+  padding: 15px;
+}
+
+/* ตาราง Skill และ ประสบการณ์ */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
